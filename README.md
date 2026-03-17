@@ -70,9 +70,21 @@ Essa estrutura facilita manutenção, testes e evolução do sistema.
 ## 📄 Exemplo de requisição
 
 ```json
-JSON
 
 {
+  "cliente": "Mesa 3",
+  "itens": ["Hambúrguer", "Refrigerante"],
+  "total": 42.50
+}
+
+```
+---
+
+## 📄 Exemplo de resposta
+
+```json
+{
+  "id": 1,
   "cliente": "Mesa 3",
   "itens": ["Hambúrguer", "Refrigerante"],
   "total": 42.50
